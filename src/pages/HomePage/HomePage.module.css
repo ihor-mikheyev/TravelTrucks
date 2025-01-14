@@ -1,0 +1,34 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("../../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heroContent {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.text {
+  color: var(--inputs);
+}
+
+.text h1 {
+  line-height: 0.67;
+  margin-bottom: 16px;
+}
+
+.text p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.text:not(:last-child) {
+  margin-bottom: 40px;
+}

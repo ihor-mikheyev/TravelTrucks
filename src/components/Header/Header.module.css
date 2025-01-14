@@ -1,0 +1,24 @@
+header {
+  height: 4.5rem;
+  width: 100%;
+  background-color: var(--budges);
+  padding: 0.33rem 0;
+  display: grid;
+  place-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--main);
+}
+.logo span {
+  color: var(--text);
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
